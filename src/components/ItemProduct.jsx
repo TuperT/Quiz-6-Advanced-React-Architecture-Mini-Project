@@ -1,8 +1,10 @@
 import { useAuth } from '../hooks/useAuth';
-import '../styles/ItemProduct.css'
+import { useToast } from '../hooks/useToast';
+import "../styles/ItemProduct.css"
 
 const ItemProduct = ({ id, image, name, price, tag }) => {
     const { addItem } = useAuth();
+    const { showToast } = useToast();
 
     const formattedPrice = typeof price === "number"
         ? `$${price.toFixed(2)}`
@@ -21,7 +23,11 @@ const ItemProduct = ({ id, image, name, price, tag }) => {
                 <p id='price-title'>{formattedPrice}</p>
             </div>
 
-            <button id='item-button' onClick={() => addItem(id, image, name, price)}>
+            <button id='item-button' onClick={() => {
+                    addItem(id, image, name, price)
+                    showToast("success", "Item added to cart successfully!");
+                }
+            }>
                 <span>+</span>
                 Add to Cart
             </button>

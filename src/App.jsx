@@ -9,24 +9,24 @@ import SummaryPage from './pages/SummaryPage';
 const App = () => {
   return (
     <AuthProvider>
-      <Routes>
-        <Route path="/" element={<Navigate to="/login" replace />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/product" element={
+        <Routes>
+          <Route path="/" element={<Navigate to="/login" replace />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/product" element={
+              <ProtectedRoute>
+                <ProductPage />
+              </ProtectedRoute>
+            } />
+          <Route path="/checkout" element={
             <ProtectedRoute>
-              <ProductPage />
+              <CheckoutPage />
             </ProtectedRoute>
           } />
-        <Route path="/checkout" element={
-          <ProtectedRoute>
-            <CheckoutPage />
-          </ProtectedRoute>
-        } />
-        <Route path="/summary" element={
-          <ProtectedRoute>
-            <SummaryPage />
-          </ProtectedRoute>
-        } />
+          <Route path="/summary" element={
+            <ProtectedRoute>
+              <SummaryPage />
+            </ProtectedRoute>
+          } />
       </Routes>
     </AuthProvider>
   );
