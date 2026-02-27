@@ -1,0 +1,28 @@
+body, #root {
+    background-color: #1c1917;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 80vh;
+    min-width: 100%;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk ExtraWide ExtraBold';
+    src: url('../fonts/roc-grotesk-extrawide-extrabold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk Wide Bold';
+    src: url('../fonts/roc-grotesk-wide-bold.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Corporate S Medium';
+    src: url('../fonts//corporate-s-medium.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}

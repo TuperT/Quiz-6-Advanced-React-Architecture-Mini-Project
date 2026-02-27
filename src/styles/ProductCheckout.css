@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Roc Grotesk ExtraWide ExtraBold';
+    src: url('./fonts/roc-grotesk-extrawide-extrabold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk Wide Bold';
+    src: url('./fonts/roc-grotesk-wide-bold.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Corporate S Medium';
+    src: url('./fonts//corporate-s-medium.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+#checkout-title {
+    margin: 5% 0 0 20%;
+}
+
+#checkout-title1 {
+    color: #e08b66;
+    font-family: 'Corporate S Medium', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+#checkout-title2 {
+    color: white;
+    font-family: 'Roc Grotesk ExtraWide ExtraBold', sans-serif;
+    font-size: 2rem;
+    margin: 1.4rem 0 2rem 0;
+    line-height: 0.2;
+}
+
+#checkout-title3 {
+    color: #55514b;
+    font-family: sans-serif;
+}
+
+#cart {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+
+#cart-item {
+    width: 40vw;
+    height: 14vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: black;
+    border: 2px solid #27272a;
+    gap: 8px;
+}
+
+#cart-image-container {
+    width: 5rem;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#cart-image-item {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+#cart-item-name {
+    color: white;
+    font-family: 'Roc Grotesk Wide Bold', sans-serif;
+}
+
+#cart-item-price {
+    color: #e08b66;
+    margin: auto 7% 7% auto;
+    font-weight: bold;
+}
+
+#cart-item-qty {
+    color: #55514b;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+#order-sumarry {
+    background-color: white;
+    width: 25vw;
+    height: 80%;
+    margin-left: 5%;
+    padding: 2rem;
+    margin-bottom: 5%;
+}
+
+#sumarry-title {
+    font-family: 'Roc Grotesk ExtraWide ExtraBold';
+    color: black;
+    font-size: 1rem;
+}
+
+#sumarry-product-container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Corporate S Medium', sans-serif;
+}
+
+#product-sumarry-price {
+    margin-left: auto;
+    color: #e08b66;
+}
+
+#shipping {
+    display: flex;
+    flex-direction: row;
+}
+
+#sumarry-shipping-fee {
+    color: #55514b;
+    margin-left: auto;
+    font-family: sans-serif;
+}
+
+#sumarry-shipping {
+    color: #55514b;
+}
+
+#sumarry-total {
+    display: flex;
+    flex-direction: row;
+}
+
+#sumarry-total #total {
+    font-family: 'Roc Grotesk ExtraWide ExtraBold';
+    color: orange;
+}
+
+#sumarry-total #price-total {
+    font-family: sans-serif;
+    color: orange;
+    margin-left: auto;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+#sumarry-total #price-total span {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#sumarry-order {
+    width: 100%;
+    height: 8vh;
+    margin-top: 1rem;
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+    font-family: 'Roc Grotesk Wide Bold', sans-serif;
+}
+
+#sumarry-order {
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#cart-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: #55514b;
+    font-family: 'Roc Grotesk Wide Bold', sans-serif;
+}
+
+#cart-empty div {
+    font-size: 3rem;
+}

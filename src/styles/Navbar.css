@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Roc Grotesk ExtraWide ExtraBold';
+    src: url('./fonts/roc-grotesk-extrawide-extrabold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Corporate S Medium';
+    src: url('./fonts//corporate-s-medium.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbar {
+    background-color: white;
+    min-width: 100vw;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+    box-sizing: border-box;
+}
+
+#nav-title {
+    font-family: 'Roc Grotesk ExtraWide ExtraBold', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#inside-title {
+    color: orange;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    gap: 2rem;
+    align-items: center;
+    height: 100%;
+    font-family: 'Corporate S Medium', sans-serif;
+}
+
+#nav a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    line-height: 1;
+}
+
+#nav a:hover {
+    color: #e08b66;
+    transition: 0.4s ease-in-out;
+    border-bottom: 2px solid black;
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: 2px grey;
+    border-radius: 1rem;
+    width: auto;
+}
+
+#nav-email {
+    margin: 0;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+#logout {
+    background: none;
+    border: none;
+    color: #e08b66;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    height: 2vh;
+}

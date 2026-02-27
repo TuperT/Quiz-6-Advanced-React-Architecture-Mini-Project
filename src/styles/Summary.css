@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Roc Grotesk ExtraWide ExtraBold';
+    src: url('../fonts/roc-grotesk-extrawide-extrabold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Corporate S Medium';
+    src: url('./fonts/corporate-s-medium.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+#payment-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#confirm-animation {
+    width: 30vw;
+    height: 30vh;
+}
+
+#payment-confirm-text {
+    font-family: 'Roc Grotesk ExtraWide ExtraBold';
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#payment-confirm-text span {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#text-payment {
+    margin: 0;
+    font-family: sans-serif;
+    color: #55514b;
+    text-align: center;
+}
+
+#label-payment {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    background-color: black;
+    padding: 1rem;
+    height: auto;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #27272a;
+}
+
+#label1 #label-item {
+    font-family: 'Corporate S Medium', sans-serif;
+    color: #55514b;
+    text-align: center;
+}
+
+#label1 #label-item-count {
+    font-family: 'Roc Grotesk ExtraWide ExtraBold';
+    color: white;
+    text-align: center;
+}
+
+#label2 #label-paid {
+    font-family: 'Corporate S Medium', sans-serif;
+    color: #55514b;
+    text-align: center;
+}
+
+#label2 #label-paid-count {
+    font-family: 'Roc Grotesk ExtraWide ExtraBold', Arial, sans-serif;
+    color: orange;
+    text-align: center;
+}
+
+#label3 #label-status {
+    font-family: 'Corporate S Medium', sans-serif;
+    color: #55514b;
+    text-align: center;
+}
+
+#label3 #label-status2 {
+    font-family: 'Roc Grotesk ExtraWide ExtraBold', sans-serif;
+    color: #4ade80;
+    text-align: center;
+}
+
+#cart-minus, #cart-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    background-color: black;
+    color: white;
+}
+
+#cart-delete {
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: 'Corporate S Medium', sans-serif;
+    height: 5vh;
+    width: 3vw;
+}
+
+#cart-delete:hover {
+    cursor: pointer;
+}
