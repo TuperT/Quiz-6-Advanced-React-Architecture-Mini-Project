@@ -1,17 +1,8 @@
-# React + Vite
+# TR School Quiz 6
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/3be57e3b-1e7e-418d-a1a2-fc4a3d9b8537" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/edefb526-37ec-4491-bd39-6304090d19e4" />
 
-Currently, two official plugins are available:
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a90eea48-3346-4b84-a1c3-3ea3157922b8" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Quiz-6---Advanced-React-Architecture-Mini-Project-
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/99dbb30e-fbeb-4878-b85e-db0493bb7246" />
